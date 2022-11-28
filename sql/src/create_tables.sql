@@ -15,7 +15,6 @@ CREATE TABLE Users ( userID serial,
                      PRIMARY KEY(userID)
 );
 
-
 CREATE TABLE Store ( storeID integer, 
                      name char(30) NOT NULL,
                      latitude decimal(8, 6) NOT NULL,
